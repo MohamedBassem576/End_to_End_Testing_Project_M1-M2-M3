@@ -1,0 +1,19 @@
+Label,# Samples,Average,Median,90% Line,95% Line,99% Line,Min,Max,Error %,Throughput,Received KB/sec,Sent KB/sec
+https://petstore.octoperf.com/actions/Account.action?signonForm=,500,146,85,358,421,452,70,499,0.000%,.69668,3.01,0.36
+https://petstore.octoperf.com/actions/Account.action,500,177,161,211,299,449,142,551,0.000%,.69375,3.48,1.02
+https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=DOGS,500,152,98,278,321,371,71,710,0.000%,.67769,2.72,0.40
+https://petstore.octoperf.com/actions/Catalog.action,500,103,81,149,232,388,70,722,0.000%,.67979,3.26,0.38
+Sign in,500,579,577,751,813,951,362,1118,0.000%,.65672,11.91,2.06
+https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=FISH,500,116,84,229,266,358,70,1069,0.000%,.67653,2.53,0.40
+choose an animal,500,116,84,229,266,358,70,1069,0.000%,.67413,2.52,0.40
+https://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=FI-SW-01,500,142,90,253,321,465,72,922,0.000%,.68331,2.67,0.41
+choose an product,500,142,90,253,321,465,72,922,0.000%,.66983,2.62,0.40
+https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-1,500,108,83,218,243,349,71,708,0.000%,.68425,3.05,0.41
+add the product to cart,500,108,83,218,243,349,71,708,0.000%,.67900,3.03,0.40
+https://petstore.octoperf.com/actions/Order.action?newOrderForm=,500,106,83,204,233,365,72,615,0.000%,.67778,3.52,0.39
+go to checkout,500,106,83,204,233,365,72,615,0.000%,.66693,3.47,0.38
+https://petstore.octoperf.com/actions/Order.action,500,228,234,330,372,567,75,1610,0.000%,.65473,2.86,0.76
+enter payment deaitls ,500,228,234,330,372,567,75,1610,0.000%,.62423,2.72,0.72
+https://petstore.octoperf.com/actions/Order.action?newOrder=&confirmed=true,500,130,89,249,277,374,72,674,0.000%,.63721,3.21,0.37
+confirm order,500,130,89,249,277,374,72,674,0.000%,.62706,3.16,0.37
+TOTAL,8500,166,94,326,453,724,70,1610,0.000%,9.48513,50.04,8.08
